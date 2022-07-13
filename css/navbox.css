@@ -1,0 +1,81 @@
+.navbox{
+    background-color:#252422;
+    width: 12rem;
+    height: 11.3rem;
+    border-radius: 1.8rem;
+    position: absolute;
+    top: 10em;
+    right: 15rem;
+    transform: rotate(-26deg);
+}
+
+.boxcontent{
+    text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.8);
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 16rem;
+    position: absolute;
+    top: 12rem;
+    right: 14vw;
+}
+
+@media screen and (max-width:380px) {
+    .navbox{
+        width: 5rem;
+        height: 4rem;
+        top: 4.7rem;
+        right: 2rem;
+        border-radius: 1rem;
+    }
+    .boxcontent{
+        font-size: x-small;
+        width: 5rem;
+        top: 5.3rem;
+        right: 1.5rem;
+    }
+}
+
+@media screen and (max-width:530px) and (min-width:381px) {
+    .navbox{
+        width: 5rem;
+        height: 4rem;
+        top: 5.3rem;
+        right: 2rem;
+        border-radius: 1rem;
+    }
+    .boxcontent{
+        font-size: x-small;
+        width: 5rem;
+        top: 6rem;
+        right: 1.5rem;
+    }
+}
+
+@media screen and (max-width:600px) and (min-width:539px) {   
+    .navbox{
+        width: 7rem;
+        height: 6rem;
+        top: 6rem;
+        right: 3.7rem;
+        border-radius: 1rem;
+    }
+    .boxcontent{
+        font-size: large;
+        width: 9rem;
+        top: 7rem;
+        right: 1.5rem;
+    }
+}
+
+@media screen and (max-width:920px) and (min-width:581px) {
+    .navbox{
+        top: 7rem;
+        right: 6rem;
+    }
+    .boxcontent{
+        right: 2rem;
+        top: 9rem;
+    }
+    
+}

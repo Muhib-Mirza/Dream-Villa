@@ -1,0 +1,122 @@
+.mid-footer{
+    width: 100vw;
+    height: 30vh;
+    background-color: #252422;
+    margin-top: 3rem;
+}
+
+.container{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.lock{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.lock-container{
+    position: absolute;
+    left: 25vw;
+    margin-top: 1rem;
+}
+
+.mid-text{
+    color: white; 
+    font-size: small;
+}
+
+.paper{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.paper-container{
+    position: absolute;
+    left: 40vw;
+    margin-top: 1rem;
+}
+
+.secure{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 2rem;
+    margin-bottom:0.5rem;
+}
+
+.secure-container{
+    position: absolute;
+    left: 55vw;
+    margin-top: 1rem;
+}
+
+.cash{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom:0.5rem;  
+}
+
+.cash-container{
+    position: absolute;
+    right: 23vw;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:580px) {
+    .mid-footer{
+        height: 26vh;
+    }
+    .lock{
+        margin-left: 0.8rem;
+    }
+    .secure{
+        margin-left: 0.9rem;
+    }
+    .paper{
+        margin-left: 1.5rem;
+    }
+    .cash{
+        margin-left: 1rem;
+    }
+    .cash-container{
+        right: 2vw;
+    }
+    .lock-container{
+        left: 2vw;
+    }
+    .secure-container{
+        left: 25vw;
+    }
+    .paper-container{
+        left: 50vw;
+    }
+    .mid-text{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width:830px) and (min-width:581px) {
+    .lock-container{
+        left: 20vw;
+    }
+    .secure-container{
+        left: 35vw;
+    }
+    .paper-container{
+        left: 50vw;
+    }
+    .cash-container{
+        right: 20vw;
+    }
+    .mid-footer{
+        height: 20vh;
+    }
+}

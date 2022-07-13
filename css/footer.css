@@ -1,0 +1,72 @@
+.footer{
+    width: 85vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-container1{
+    width: 12rem;   
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.care-text{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 0.1rem;
+    color: #565656;
+}
+
+.about{
+    margin-top: 0.5rem;
+}
+
+h4{
+    color: black;
+}
+
+.foot-container2{
+    margin-top: 1rem;
+    display: inline-block;
+    margin-left: 14rem;
+    width: 12rem;
+}
+
+.download{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 3rem;
+    margin-left: 14rem;
+}
+
+.store-logo{
+    width: 12rem;
+}
+
+@media screen and (max-width:600px) {
+    .download{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .foot-container2{
+        margin-left: 0;
+    }
+    
+}
+
+@media screen and (max-width:1205px) and (min-width:601px) {
+    .footer{
+        width: 100vw;
+    }
+    .foot-container2{
+        margin-left: 3rem;
+    }
+    .download{
+        margin-left: 1rem;
+    }
+}
