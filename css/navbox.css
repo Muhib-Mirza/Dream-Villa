@@ -22,10 +22,10 @@
 
 @media screen and (max-width:380px) {
     .navbox{
-        width: 5rem;
+        width: 5.5rem;
         height: 4rem;
-        top: 4.7rem;
-        right: 2rem;
+        top: 4.5rem;
+        right: 1.8rem;
         border-radius: 1rem;
     }
     .boxcontent{
@@ -38,7 +38,7 @@
 
 @media screen and (max-width:530px) and (min-width:381px) {
     .navbox{
-        width: 5rem;
+        width: 5.5rem;
         height: 4rem;
         top: 5.3rem;
         right: 2rem;
@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (max-width:920px) and (min-width:581px) {
+@media screen and (max-width:1000px) and (min-width:581px) {
     .navbox{
         top: 7rem;
         right: 6rem;
