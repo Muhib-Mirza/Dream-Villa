@@ -8,7 +8,8 @@
   height: 20rem;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+  margin-right:0.5rem;
 }
 
 .card-img {
@@ -32,10 +33,14 @@
 
 .card-text {
     margin-top: 0.7rem;
-    margin-left: 1.5rem;
+    margin-left: 0.8rem;
     font-weight: bold;
     font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cisl{
+  margin-left: 0.5rem;
 }
 
 .star-container {
@@ -94,7 +99,7 @@
 
 @media screen and (max-width:600px) {
   .star-container{
-    margin-left: 3rem !important;
+    margin-left: 1.5rem !important;
   }
   .price{
     margin-left: 2rem !important;
@@ -106,6 +111,6 @@
     font-size: x-small;
   }
   .star-container2{
-    margin-left: 1rem !important;
+    margin-left: 0.5rem !important;
   }
 }
