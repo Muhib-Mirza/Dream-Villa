@@ -11,12 +11,12 @@
     <script src="js/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/mid.css" />
-    <link rel="stylesheet" href="css/section.css" />
     <link rel="stylesheet" href="css/navbox.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/cards.css" />
   </head>
   <body>
-    <div class="owl-carousel owl-theme">
+    <div class="owl-carousel owl-theme owl-animated-out">
       <div class="slide">
         <img src="img/slide1.png" alt="" />
       </div>
@@ -43,61 +43,62 @@
       <img class="logo" src="img/logo.png" alt="" />
       <b class="wname">Dream Villa</b>
       <ul class="nav-list">
-        <a href="index.html">
+        <a class="nav-text" href="index.html">
           <li>Home</li>
         </a>
-        <a href="#">
-          <li>Features</li>
+        <a href="#" class="nav-text">
+          <li>Offers</li>
         </a>
-        <a href="#">
+        <a class="nav-text" href="#">
           <li>About Us</li>
         </a>
-        <a href="#">
+        <a href="#" class="nav-text">
           <li>Agents</li>
         </a>
       </ul>
     </nav>
     <div class="navbox"></div>
-    <div class="boxcontent">
-      Let Us Help You To Choose <br />
-      The Best.
-    </div>
+    <a href="#">
+      <div class="boxcontent">
+        Let Us Help You To Choose <br />
+        The Best.
+      </div>
+    </a>
     <div class="section">
       <div class="section-head">
         <h1>Our Popular Residance</h1>
       </div>
-      <div class="cards">
-        <div class="card1">
-          <img src="img/card1.png" alt="" />
-          <div class="c1-context">
-            <img src="img/locate.svg" alt="" class="locate" />
-            <div class="c1text">Lahore</div>
-            <div class="star">
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/whitestar.svg" alt="" class="stpic" />
+      <div class="card-container owl-carousel owl-theme">
+        <div class="item">
+          <img src="img/card1.png" alt="" class="card-img" />
+          <div class="card-context">
+            <img src="img/locate.svg" alt="" class="location" />
+            <div class="card-text">Lahore</div>
+            <div class="star-container">
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
             </div>
           </div>
           <button onclick="#" class="buy-btn">Buy Now</button>
           <span class="price">
-            <span class="pricenum">2,000,000</span>
+            <span class="pricenum">2,500,000</span>
             <span class="unit">PKR</span>
           </span>
         </div>
-
-        <div class="card1 cmargin">
-          <img src="img/card2.png" alt="" />
-          <div class="c1-context">
-            <img src="img/locate.svg" alt="" class="locate" />
-            <div class="c1text">Islamabad</div>
-            <div class="star star2">
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
+        <div class="item">
+          <img src="img/card2.png" alt="" class="card-img" />
+          <div class="card-context">
+            <img src="img/locate.svg" alt="" class="location" />
+            <div class="card-text">Islamabad</div>
+            <div class="star-container star-container2">
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
             </div>
           </div>
           <button onclick="#" class="buy-btn">Buy Now</button>
@@ -106,18 +107,55 @@
             <span class="unit">PKR</span>
           </span>
         </div>
-
-        <div class="card1 cmargin">
-          <img src="img/card3.png" alt="" />
-          <div class="c1-context">
-            <img src="img/locate.svg" alt="" class="locate" />
-            <div class="c1text">Muree</div>
-            <div class="star">
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/star.svg" alt="" class="stpic" />
-              <img src="img/whitestar.svg" alt="" class="stpic" />
-              <img src="img/whitestar.svg" alt="" class="stpic" />
+        <div class="item">
+          <img src="img/card3.png" alt="" class="card-img" />
+          <div class="card-context">
+            <img src="img/locate.svg" alt="" class="location" />
+            <div class="card-text">Muree</div>
+            <div class="star-container">
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+            </div>
+          </div>
+          <button onclick="#" class="buy-btn">Buy Now</button>
+          <span class="price">
+            <span class="pricenum">2,000,000</span>
+            <span class="unit">PKR</span>
+          </span>
+        </div>
+        <div class="item">
+          <img src="img/card4.png" alt="" class="card-img" />
+          <div class="card-context">
+            <img src="img/locate.svg" alt="" class="location" />
+            <div class="card-text">Muree</div>
+            <div class="star-container">
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+            </div>
+          </div>
+          <button onclick="#" class="buy-btn">Buy Now</button>
+          <span class="price">
+            <span class="pricenum">2,000,000</span>
+            <span class="unit">PKR</span>
+          </span>
+        </div>
+        <div class="item">
+          <img src="img/card5.png" alt="" class="card-img" />
+          <div class="card-context">
+            <img src="img/locate.svg" alt="" class="location" />
+            <div class="card-text">Muree</div>
+            <div class="star-container">
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
             </div>
           </div>
           <button onclick="#" class="buy-btn">Buy Now</button>
@@ -178,7 +216,7 @@
       </div>
       <div class="download">
         <h3>Download App</h3>
-        <img src="img/app-store-logo.svg" alt="" class="store-logo">
+        <img src="img/app-store-logo.svg" alt="" class="store-logo" />
       </div>
     </div>
     <script>
@@ -187,10 +225,28 @@
           items: 1,
           autoplay: true,
           autoplayspeed: 7000,
-          smartSpeed: 2000,
+          smartSpeed: 3000,
           loop: true,
           dots: false,
         });
+      });
+      $(".card-container").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayspeed: 3000,
+        smartSpeed: 1500,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
       });
     </script>
   </body>
