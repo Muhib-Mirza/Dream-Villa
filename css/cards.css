@@ -6,7 +6,6 @@
 .item {
   background-color: whitesmoke;
   height: 20rem;
-  width: 20rem;
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 1rem;
   margin-left: 1rem;
@@ -91,4 +90,22 @@
     font-weight: bolder;
     font-size: 1.3rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:600px) {
+  .star-container{
+    margin-left: 3rem !important;
+  }
+  .price{
+    margin-left: 2rem !important;
+  }
+  .pricenum{
+    font-size: 1rem;
+  }
+  .unit{
+    font-size: x-small;
+  }
+  .star-container2{
+    margin-left: 1rem !important;
+  }
 }
