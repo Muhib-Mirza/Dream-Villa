@@ -1,15 +1,16 @@
 .card-container {
   width: 81vw;
   margin: auto;
+  margin-top: 1.5rem;
 }
 
 .item {
   background-color: whitesmoke;
   height: 20rem;
-  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
   margin-bottom: 1rem;
   margin-left: 0.5rem;
-  margin-right:0.5rem;
+  margin-right:0.9rem;
 }
 
 .card-img {
@@ -79,7 +80,7 @@
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
     font-size: 0.9rem;
-    cursor: pointer;
+    cursor:pointer;
     border: none ;
 }
 

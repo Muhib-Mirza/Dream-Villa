@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about-nav {
+  position: sticky;
+  border-radius: 0;
+  width: 100vw;
+  left: 0;
+  top: 0;
+  height: 5rem;
+  background-image: url(./bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background: none;
+}
+
+.contact:hover {
+  background-color: #cad2c5;
+  color: black;
+}
+
+
+li{
+    margin-left: 1.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-list{
+    left: 30vw;
+}
+
+@media screen and (max-width:400px) {
+    .contact{
+        right: 0;
+    }
+    .nav-list{
+        left: 30.4vw;
+    }   
+    .logo{
+        left: 0.3rem;
+    }
+    .wname{
+        left: 3.4rem;
+    }
+    li{
+        width: 3rem;
+        margin-left: 0.2rem;
+    }
+}
+
+@media screen and (max-width:580px) and (min-width:401px) {
+    .contact{
+        right: 0;
+    }
+    .nav-list{
+        left: 30.4vw;
+    }   
+    .logo{
+        left: 0.3rem;
+    }
+    .wname{
+        left: 3.4rem;
+    }
+    li{
+        width: 3.5rem;
+        margin-left: 0.2rem;
+    }
+}
+
+@media screen and (min-width:581px) and (max-width:820px) {
+ li{
+    margin-left: 1rem;
+ }   
+ .nav-list{
+    left: 22vw;
+ }
+}
+
+@media screen and (min-width:821px) and (max-width:920px) {
+    .nav-list{
+        left:25vw;
+    }
+    
+}

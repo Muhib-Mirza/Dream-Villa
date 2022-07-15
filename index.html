@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/cards.css" />
   </head>
   <body>
-    <div class="owl-carousel owl-theme owl-animated-out">
+    <div class="owl-carousel owl-theme">
       <div class="slide">
         <img src="img/slide1.png" alt="" />
       </div>
@@ -47,15 +47,18 @@
           <li>Home</li>
         </a>
         <a href="#" class="nav-text">
-          <li>Offers</li>
+          <li>Property</li>
         </a>
-        <a class="nav-text" href="#">
-          <li>About Us</li>
+        <a class="nav-text" href="about.html">
+          <li>About</li>
         </a>
         <a href="#" class="nav-text">
-          <li>Agents</li>
+          <li>Blog</li>
         </a>
       </ul>
+      <a href="#" class="nav-text contact">
+        Contact
+      </a>
     </nav>
     <div class="navbox"></div>
     <a href="#">
@@ -130,7 +133,26 @@
           <img src="img/card4.png" alt="" class="card-img" />
           <div class="card-context">
             <img src="img/locate.svg" alt="" class="location" />
-            <div class="card-text">Muree</div>
+            <div class="card-text">Quetta</div>
+            <div class="star-container">
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/star.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+              <img class="star-pic" src="img/whitestar.svg" alt="" />
+            </div>
+          </div>
+          <button onclick="#" class="buy-btn">Buy Now</button>
+          <span class="price">
+            <span class="pricenum">1,500,000</span>
+            <span class="unit">PKR</span>
+          </span>
+        </div>
+        <div class="item">
+          <img src="img/card5.png" alt="" class="card-img" />
+          <div class="card-context">
+            <img src="img/locate.svg" alt="" class="location" />
+            <div class="card-text">Multan</div>
             <div class="star-container">
               <img class="star-pic" src="img/star.svg" alt="" />
               <img class="star-pic" src="img/star.svg" alt="" />
@@ -146,10 +168,10 @@
           </span>
         </div>
         <div class="item">
-          <img src="img/card5.png" alt="" class="card-img" />
+          <img src="img/card6.png" alt="" class="card-img" />
           <div class="card-context">
             <img src="img/locate.svg" alt="" class="location" />
-            <div class="card-text">Muree</div>
+            <div class="card-text">Lahore</div>
             <div class="star-container">
               <img class="star-pic" src="img/star.svg" alt="" />
               <img class="star-pic" src="img/star.svg" alt="" />
@@ -228,14 +250,15 @@
           smartSpeed: 3000,
           loop: true,
           dots: false,
+          animateOut: "fadeOut",
         });
       });
       $(".card-container").owlCarousel({
         loop: true,
         autoplay: true,
-        autoplayspeed: 3000,
+        autoplayspeed: 2000,
         smartSpeed: 1500,
-        dots: false,
+        dots:false,
         responsive: {
           0: {
             items: 1,
