@@ -4,7 +4,7 @@
 }
 
 .about-nav {
-  position: sticky;
+  position: relative;
   border-radius: 0;
   width: 100vw;
   left: 0;
@@ -35,6 +35,10 @@ li{
     left: 30vw;
 }
 
+.wname{
+    font-size: medium;
+}
+
 @media screen and (max-width:400px) {
     .contact{
         right: 0;
@@ -47,6 +51,7 @@ li{
     }
     .wname{
         left: 3.4rem;
+        font-size: xx-small;
     }
     li{
         width: 3rem;

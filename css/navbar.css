@@ -5,7 +5,14 @@
 
 .owl-carousel{
     width: 100vw;
+}
+
+.slider{
     z-index: -1;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
@@ -41,7 +48,7 @@ body{
 .wname{
     position: absolute;
     left: 4rem;
-    font-size: 0.8rem;
+    font-size: medium;
     font-family: 'Spinnaker', sans-serif;
 }
 

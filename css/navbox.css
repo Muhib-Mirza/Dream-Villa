@@ -7,13 +7,14 @@
     top: 10em;
     right: 15rem;
     transform: rotate(-26deg);
+    
 }
 
 .boxcontent{
     text-shadow: 0px 6px 6px rgba(0, 0, 0, 0.8);
     font-size: xx-large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+    color: white ;
     width: 16rem;
     position: absolute;
     top: 12rem;

@@ -1,3 +1,31 @@
+.owl-next{
+  font-size: 2.8rem !important;
+  position: absolute;
+  right: 0;
+  top: 8rem;
+  color:black !important;
+  background-color: #F6F6F6 !important;
+}
+
+.owl-next:hover{
+  background-color: #02040F !important;
+  color: white !important;
+}
+
+.owl-prev{
+  font-size: 2.8rem !important;
+  position: absolute;
+  left: 0;
+  top: 8rem;
+  color:black !important;
+  background-color: #F6F6F6 !important;
+}
+
+.owl-prev:hover{
+  background-color: #02040F !important;
+  color: white !important;
+}
+
 .card-container {
   width: 81vw;
   margin: auto;
@@ -11,6 +39,7 @@
   margin-bottom: 1rem;
   margin-left: 0.5rem;
   margin-right:0.9rem;
+  z-index: 1;
 }
 
 .card-img {
@@ -98,7 +127,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:770px) {
   .star-container{
     margin-left: 1.5rem !important;
   }
@@ -113,5 +142,20 @@
   }
   .star-container2{
     margin-left: 0.5rem !important;
+  }
+}
+
+@media screen and (min-width:1000px) and (max-width:1025px) {
+  .star-container{
+    margin-left: 1rem !important;
+  }
+  .star-container2{
+    margin-left: 0.3rem !important;
+  }
+  .price{
+    margin-left: 0.5rem !important;
+  }
+  .buy-btn{
+    margin-left: 0;
   }
 }
