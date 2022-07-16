@@ -127,7 +127,49 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@media screen and (max-width:770px) {
+@media screen and (max-width:600px) and (min-width:350px) {
+  .star-container{
+    margin-left: 2rem !important;
+  }
+  .price{
+    margin-left: 2rem !important;
+  }
+  .pricenum{
+    font-size: 1rem;
+  }
+  .unit{
+    font-size: x-small;
+  }
+  .star-container2{
+    margin-left: 1rem !important;
+  }
+  .cisl{
+    margin-left: 1rem !important;
+  }
+  .cisl-logo{
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width:350px) {
+  .star-container{
+    margin-left: 0.7rem !important;
+  }
+  .price{
+    margin-left: 0.2rem !important;
+  }
+  .pricenum{
+    font-size: 1rem;
+  }
+  .unit{
+    font-size: x-small;
+  }
+  .star-container2{
+    margin-left: 0rem !important;
+  }
+}
+
+@media screen and (max-width:770px) and (min-width:601px){
   .star-container{
     margin-left: 1.5rem !important;
   }

@@ -1,6 +1,6 @@
 .mid-footer{
     width: 100vw;
-    height: 30vh;
+    height: 25vh;
     background-color: #252422;
     margin-top: 3rem;
 }
@@ -10,7 +10,7 @@
     font-weight: bolder;
     font-size: xx-large;
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .lock{
@@ -22,7 +22,7 @@
 
 .lock-container{
     position: absolute;
-    left: 25vw;
+    left: 25rem;
     margin-top: 1rem;
 }
 
@@ -40,7 +40,7 @@
 
 .paper-container{
     position: absolute;
-    left: 40vw;
+    left: 53%;
     margin-top: 1rem;
 }
 
@@ -53,7 +53,7 @@
 
 .secure-container{
     position: absolute;
-    left: 55vw;
+    left: 34rem;
     margin-top: 1rem;
 }
 
@@ -66,13 +66,13 @@
 
 .cash-container{
     position: absolute;
-    right: 23vw;
+    right: 22rem;
     margin-top: 1rem;
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:330px) {
     .mid-footer{
-        height: 26vh;
+        height: 33vh;
     }
     .lock{
         margin-left: 0.8rem;
@@ -87,7 +87,73 @@
         margin-left: 1rem;
     }
     .cash-container{
-        right: 2vw;
+        right: 0.2rem;
+    }
+    .lock-container{
+        left: 0.3rem;
+    }
+    .secure-container{
+        left: 5.2rem;
+    }
+    .paper-container{
+        left: 50%;
+    }
+    .mid-text{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width:450px) and (min-width:331px) {
+    .mid-footer{
+        height: 23vh;
+    }
+    .lock{
+        margin-left: 1rem;
+    }
+    .secure{
+        margin-left: 1.2rem;
+    }
+    .paper{
+        margin-left: 1.5rem;
+    }
+    .cash{
+        margin-left: 1rem;
+    }
+    .cash-container{
+        right: 1rem;
+    }
+    .lock-container{
+        left: 1rem;
+    }
+    .secure-container{
+        left: 27vw;
+    }
+    .paper-container{
+        left: 50%;
+    }
+    .mid-text{
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width:580px) and (min-width:451px) {
+    .mid-footer{
+        height: 20vh;
+    }
+    .lock{
+        margin-left: 0.8rem;
+    }
+    .secure{
+        margin-left: 1.2rem;
+    }
+    .paper{
+        margin-left: 1.5rem;
+    }
+    .cash{
+        margin-left: 1rem;
+    }
+    .cash-container{
+        right: 1.5rem;
     }
     .lock-container{
         left: 2vw;
@@ -96,14 +162,17 @@
         left: 27vw;
     }
     .paper-container{
-        left: 52vw;
+        left: 50%;
     }
     .mid-text{
         font-size: x-small;
     }
 }
 
-@media screen and (max-width:830px) and (min-width:581px) {
+@media screen and (max-width:800px) and (min-width:581px) {
+    .mid-footer{
+        height: 29vh;
+    }
     .lock-container{
         left: 20vw;
     }
@@ -111,12 +180,67 @@
         left: 35vw;
     }
     .paper-container{
-        left: 50vw;
+        left: 50%;
+    }
+    .cash-container{
+        right: 20vw;
+    }
+}
+
+@media screen and (max-width:830px) and (min-width:801px) {
+    .lock-container{
+        left: 20vw;
+    }
+    .secure-container{
+        left: 35vw;
+    }
+    .paper-container{
+        left: 50%;
     }
     .cash-container{
         right: 20vw;
     }
     .mid-footer{
-        height: 20vh;
+        height: 16vh;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:831px) {
+    .lock-container{
+        left: 12rem;
+        margin-top: 1rem;
+    }
+    .secure-container{
+        left: 21rem;
+        margin-top: 1rem;
+    }
+    .paper-container{
+        left: 53%;
+    }
+    .cash-container{
+        right: 20vw;
+    }
+    .mid-footer{
+        height: 14vh;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:1001px) {
+    .lock-container{
+        left: 15rem;
+        margin-top: 1rem;
+    }
+    .secure-container{
+        left: 24rem;
+        margin-top: 1rem;
+    }
+    .paper-container{
+        left: 53%;
+    }
+    .cash-container{
+        right: 14rem;
+    }
+    .mid-footer{
+        height: 29vh;
     }
 }
