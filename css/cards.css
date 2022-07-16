@@ -167,6 +167,12 @@
   .star-container2{
     margin-left: 0rem !important;
   }
+  .cisl{
+    margin-left: 0rem !important;
+  }
+  .cisl-logo{
+    margin-left: 0rem !important;
+  }
 }
 
 @media screen and (max-width:770px) and (min-width:601px){
