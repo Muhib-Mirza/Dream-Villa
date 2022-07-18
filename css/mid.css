@@ -126,13 +126,13 @@
         left: 1rem;
     }
     .secure-container{
-        left: 27vw;
+        left: 6.2rem;
     }
     .paper-container{
-        left: 50%;
+        left: 51%;
     }
     .mid-text{
-        font-size: x-small;
+        font-size: x-small !important;
     }
 }
 
