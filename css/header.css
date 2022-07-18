@@ -1,18 +1,105 @@
 .header-container{
     position: absolute;
-    top: 10rem;
+    top: 7rem;
     width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .header{
     font-weight: bolder;
     font-size: 2.6rem;
     width: 50%;
-    position: absolute;
-    left: 4rem;
+    margin-left: 4rem;
     border: 3px solid #2ECA6A;
     padding-left: 1rem;
     border-top: none;
     border-right: none;
     border-bottom: none;
+}
+
+.head-link{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10rem;
+    text-align: end;
+    font-size: 1.3rem;
+    padding-top: 1.2rem;
+    width: 22rem;
+}
+
+.head-link a{
+    font-size: 1.3rem !important;
+}
+
+.home{
+    text-decoration: none;
+    color: black;
+    transition-property: color;
+    transition-duration: 500ms;
+}
+
+.home:hover{
+    transition-timing-function: ease;
+    color: #20c997;
+}
+
+@media screen and (max-width:600px) {
+    .header{
+        width: 80%;
+        margin-left: 1rem;
+        padding-left: 2rem;
+    }
+    .head-link{
+        margin-left: 1rem;
+        text-align: start;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:799px) and (min-width:601px) {
+    .header{
+        width: 50%;
+        margin-left: 1rem;
+        padding-left: 2rem;
+    }
+    .head-link{
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width:900px) and (min-width:800px) {
+    .header{
+        width: 50%;
+        margin-left: 1.5rem;
+        padding-left: 2rem;
+    }
+    .head-link{
+        width: 10rem;
+        text-align: start;
+    }
+
+}
+
+@media screen and (max-width:1000px) and (min-width:901px) {
+    .header{
+        width: 50%;
+        margin-left: 1.5rem;
+        padding-left: 2rem;
+    }
+    .head-link{
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:1001px) {
+    .header{
+        width: 50%;
+        margin-left: 1.5rem;
+        padding-left: 2rem;
+    }
+    .head-link{
+        width: 16rem;
+    }
 }

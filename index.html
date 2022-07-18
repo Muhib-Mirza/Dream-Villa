@@ -14,10 +14,39 @@
     <link rel="stylesheet" href="css/navbox.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/cards.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="slider owl-carousel owl-theme">
-      <div class="slide">
+    <nav class="navbar">
+      <img class="logo" src="img/logo.png" alt="" />
+      <b class="wname">
+        Dream
+        <span class="dream"> Villa </span>
+      </b>
+      <ul class="nav-list">
+        <a class="nav-text" href="index.html">
+          <li>Home</li>
+        </a>
+        <a href="property.html" class="nav-text">
+          <li class="property" >Property</li>
+        </a>
+        <a class="nav-text" href="about.html">
+          <li>About</li>
+        </a>
+        <a href="blog.html" class="nav-text">
+          <li>Blog</li>
+        </a>
+      </ul>
+      <a href="contact.html" class="nav-text contact"> Contact </a>
+    </nav>
+    <div>
+      <div class="slider owl-carousel owl-theme">
+        <div class="slide">
         <img src="img/slide1.png" alt="" />
       </div>
       <div class="slide">
@@ -39,31 +68,11 @@
         <img src="img/slide7.png" alt="" />
       </div>
     </div>
-    <nav class="navbar">
-      <img class="logo" src="img/logo.png" alt="" />
-      <b class="wname">Dream Villa</b>
-      <ul class="nav-list">
-        <a class="nav-text" href="index.html">
-          <li>Home</li>
-        </a>
-        <a href="#" class="nav-text">
-          <li>Property</li>
-        </a>
-        <a class="nav-text" href="about.html">
-          <li>About</li>
-        </a>
-        <a href="#" class="nav-text">
-          <li>Blog</li>
-        </a>
-      </ul>
-      <a href="#" class="nav-text contact">
-        Contact
-      </a>
-    </nav>
+  </div>
     <div class="navbox"></div>
     <a href="#">
       <div class="boxcontent">
-        <a href="#card" style="text-decoration: none; color:white">
+        <a href="#card" style="text-decoration: none; color: white">
           Let Us Help You To Choose <br />
           The Best.
         </a>
@@ -87,7 +96,7 @@
               <img class="star-pic" src="img/whitestar.svg" alt="" />
             </div>
           </div>
-            <button class="buy-btn">Buy Now</button>
+          <button class="buy-btn">Buy Now</button>
           <span class="price">
             <span class="pricenum">2,500,000</span>
             <span class="unit">PKR</span>
@@ -252,17 +261,17 @@
           smartSpeed: 3000,
           loop: true,
           dots: false,
-          rewind:true,
+          animateOut: 'fadeOut',
         });
         $(".card-container").owlCarousel({
           loop: true,
           autoplay: true,
           autoplayspeed: 2000,
           smartSpeed: 1500,
-          dots:false,
-          autoplayHoverPause:true,
-          freeDrag:true,
-          nav:true,
+          dots: false,
+          autoplayHoverPause: true,
+          freeDrag: true,
+          nav: true,
           responsive: {
             0: {
               items: 1,

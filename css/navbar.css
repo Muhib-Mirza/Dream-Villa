@@ -23,21 +23,20 @@ body{
 }
 
 .navbar{
-    width: 95vw;
-    background-image: url(./bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: 100vw;
+    background-color:#ECEBF3;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
-    margin: auto;
-    box-shadow: 5px 5px 7px rgba(0, 0, 0,0.4);
+    box-shadow: 5px 10px 7px rgba(0, 0, 0,0.4);
     position: absolute;
-    top: 1rem;
-    left: 2rem;
-    height: 2.5rem;
-    border-radius: 5rem;
+    height: 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 10;
+}
+
+.dream{
+    color: #8CC63F;
 }
 
 .logo{
@@ -49,7 +48,8 @@ body{
     position: absolute;
     left: 4rem;
     font-size: medium;
-    font-family: 'Spinnaker', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 .nav-list{
@@ -57,8 +57,7 @@ body{
     list-style: none;
     display: flex;
     flex-direction: row;
-    left: 30vw;
-    
+    left: 30%;   
 }
 .nav-text{
     text-decoration: none;
@@ -70,6 +69,7 @@ li{
     width: 6rem;
     border-radius: 1rem;
     text-align: center;
+    margin-left: 1rem;
     transition: background;
     transition-duration: 750ms;
 }
@@ -81,7 +81,7 @@ li:hover{
 
 .contact{
     position: absolute;
-    right: 1rem;
+    right: 2rem;
     background-color: black;
     color: white;
     width: 6rem;
@@ -90,6 +90,7 @@ li:hover{
     transition: background;
     transition-duration: 700ms;
     font-family: 'Spinnaker', sans-serif;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0,0.4);
 }
 
 .contact:hover{
@@ -99,53 +100,183 @@ li:hover{
 }
 
 @media screen and (max-width:350px) {
-    .navbar{
-        width: 100vw;
+    .logo{
         left: 0;
     }
-    .wname{
-        font-size: xx-small;
+    .navbar{
+        width: 100vw;
     }
+    .wname{
+        left: 2.9rem;
+        font-size: x-small !important;
+    }
+    
     li{
-        width: 2.8rem;
-        margin-left: 0rem;
+        width: 2.3rem !important;
+        margin-left: 0.1rem !important;
     }
     a{
-        font-size: xx-small;
+        font-size: xx-small !important;
     }
     .nav-list{
-        left: 37vw;
+        left: 6.5rem !important;
     }
     .contact{
         width: 2.8rem;
         right: 0.2rem;
+    }
+    .property{
+        width: 3rem !important;
     }
 }
 
-@media screen and (max-width:580px) {
+@media screen and (max-width:361px) and (min-width:351px) {
+    .logo{
+        left: 0;
+    }
     .navbar{
         width: 100vw;
+    }
+    .wname{
+        left: 3rem;
+        font-size: x-small !important;
+    }
+    
+    li{
+        width: 2.3rem !important;
+        margin-left: 0.4rem !important;
+    }
+    a{
+        font-size: x-small !important;
+    }
+    .nav-list{
+        left: 7rem !important;
+    }
+    .contact{
+        width: 3rem;
+        font-size: 1rem;
+        right: 0.2rem;
+    }
+    .property{
+        width: 3.5rem !important;
+    }
+}
+
+@media screen and (max-width:380px) and (min-width:362px) {
+    .logo{
         left: 0;
     }
     .wname{
-        font-size: xx-small;
-        left: 3.2rem;
+        left: 2.8rem;
+        font-size: 0.7rem;
     }
     li{
         width: 2.6rem;
-        margin-left: 0rem;
+        margin-left: 0.2rem;
     }
     a{
-        font-size: xx-small;
+        font-size: small;
     }
     .nav-list{
-        left: 6.4rem;
-    }
-    .logo{
-        left: 0.3rem;
+        left: 7rem;
     }
     .contact{
+        width: 3rem;
+        font-size: x-small;
+        right: 0.3rem;
+    }
+    .property{
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:381px) {
+    .logo{
+        left: 0;
+    }
+    .wname{
+        left: 2.8rem;
+        font-size: 0.7rem;
+    }
+    li{
+        width: 2.6rem;
+        margin-left: 0.4rem;
+    }
+    a{
+        font-size: small;
+    }
+    .nav-list{
+        left: 6.5rem;
+    }
+    .contact{
+        width: 4rem;
+        font-size: small;
+        right: 0.3rem;
+    }
+    .property{
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:401px) {
+    .logo{
+        left: 0;
+    }
+    .wname{
+        left: 2.8rem;
+        font-size: 0.7rem;
+    }
+    li{
         width: 2.8rem;
-        right: 0.2rem;
+        margin-left: 0.5rem;
+    }
+    a{
+        font-size: small;
+    }
+    .nav-list{
+        left: 7rem;
+    }
+    .contact{
+        width: 4rem;
+        font-size: small;
+        right: 0.1rem;
+    }
+    .property{
+        width: 4rem;
+    }   
+}
+
+@media screen and (min-width:501px) and (max-width:599px) {
+    .logo{
+        left: 0;
+    }
+    .wname{
+        left: 3rem;
+        font-size: 1rem;
+    }
+    li{
+        width: 4rem;
+        margin-left: 0.5rem;
+    }
+    a{
+        font-size: small;
+    }
+    .nav-list{
+        left: 8.5rem;
+    }
+    .contact{
+        width: 4rem;
+        font-size: small;
+        right: 0.5rem;
+    }
+    .property{
+        width: 4.3rem;
+    }
+    
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .nav-list{
+        left: 11rem;
     }
 }
